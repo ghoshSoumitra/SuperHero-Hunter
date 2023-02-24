@@ -1,0 +1,196 @@
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/2449559.jpg");
+    background-size: cover;
+   
+ }
+ #nav{
+  background-color: aqua;
+  /* margin-bottom: 29px; */
+  margin-top: -21px;
+  text-align: center;
+  opacity: 0.5;
+ 
+  
+ }
+  
+  h1 {
+    text-align: center;
+    
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px #e61111;
+  }
+
+  /* input section start */
+  .search-container {
+    margin: 20px;
+    height: 50%;
+  }
+
+  #search-input {
+  
+    width: 100%;
+    height: 20%;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(169 40 12);
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+   
+  }
+
+  #search-button{
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    margin-left: 84vw;
+    background-color: #4feaf5;
+    /* box-shadow: 0 0 10px rgb(169 40 12); */
+    box-shadow: 0 0 20px rgb(24 239 189);
+   font-weight: bold;
+   font-size: 1.1rem;
+
+ }
+  /* input section end */
+  label {
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #fcff8c;;
+  }
+  
+  
+  /* result section */
+  #results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .result {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .result img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+   
+  }
+ 
+  
+  #results-container .p{
+    background-color: bisque;
+ } 
+
+ /* favorite section */
+  #favorites-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .favorite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  
+  .favorite img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .favorite button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+ 
+
+ h2{
+    color: #fcff8c;
+    text-decoration: underline;
+ }
+
+ p{
+    color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+ }
+
+ h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 4px #e61111;
+ }
+
+ .hero-description img{
+ margin-left: 6vw;
+ }
+
+ .remove{
+  background-color: #e61111;
+  margin-left: 15vw;
+  cursor: pointer;
+ }
+
+ #favorites-container{
+  height: 100vh;
+ }
+
+ .description {
+   height: 30vh;
+   width: 20vw;
+   text-align: center;
+   background-color: rgb(227 234 226 / 72%);
+   padding: 7px;
+   color: black;
+   border-radius: 7px;
+   overflow: scroll;
+ }
+
+ img{
+  cursor: pointer;
+ }
+
+ .alert{
+  height: 7vh;
+  width: 24vw;
+  background-color: chocolate;
+  color: aliceblue;
+  margin-top: -90px;
+  margin-left: 40vw;
+  border-radius: 5px;
+  padding-top: 23px;
+  text-align: center;
+ }
+
+ #removing{
+  margin-top: 20vh;
+ } 
+
+ .hide-show {
+  height: 5vh;
+  width: 10vw;
+  cursor: pointer;
+  background-color: #4feaf5;
+  box-shadow: 0 0 20px rgb(24 239 189);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
